@@ -11,6 +11,19 @@
 
     <artifactId>AppBoot</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.atos</groupId>
+            <artifactId>fleet</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atos</groupId>
+            <artifactId>user</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
