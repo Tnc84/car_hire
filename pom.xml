@@ -21,7 +21,7 @@
     <modules>
         <module>User</module>
         <module>Fleet</module>
-        <module>TemporaryBoot</module>
+        <module>AppBoot</module>
     </modules>
 
     <properties>
