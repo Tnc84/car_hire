@@ -1,12 +1,12 @@
 server:
-  port : 8090
+  port: 8090
 spring:
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/car_hire
     username: root
     password: root
-    url: "jdbc:mysql://localhost:3306/car_hire"
   jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
-      ddl-auto: update
-
+      ddl-auto: create
+#    generate-ddl: true
