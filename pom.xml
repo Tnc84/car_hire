@@ -15,14 +15,10 @@
     <artifactId>Car_hire</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-<!--    <name>Car_hire</name>-->
-<!--    <description>Spring Boot</description>-->
-
     <modules>
         <module>User</module>
         <module>Fleet</module>
         <module>AppBoot</module>
-        <module>Boot</module>
     </modules>
 
     <properties>
@@ -30,7 +26,7 @@
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
 
-        <postgresql.version>42.2.23</postgresql.version>
+        <mysql.version>8.0.26</mysql.version>
 
         <mapstruct.version>1.4.2.Final</mapstruct.version>
 
@@ -64,10 +60,10 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>
